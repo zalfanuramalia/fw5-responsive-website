@@ -1,0 +1,129 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.header-forgot {
+  background-image: url(./images/header-forgot.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-forgot .header-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 758px;
+  color: white;
+}
+
+.header-forgot .header-content .header-nav {
+  margin: 0 89px;
+  padding: 74px;
+}
+
+.header-forgot .header-content .header-nav i {
+  font-size: 30px;
+  margin-right: 76px;
+}
+
+.header-forgot .header-content .header-nav span {
+  font-size: 24px;
+}
+
+.header-forgot .header-content h1.heading {
+  font-size: 64px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-weight: bold;
+  line-height: 85px;
+}
+
+.header-forgot .header-content form div {
+  text-align: center;
+}
+
+.header-forgot .header-content form div input {
+  margin-top: 83px;
+  height: 79px;
+  width: 447px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  border: none;
+}
+
+.header-forgot .header-content form div input:focus {
+  outline: none;
+}
+
+.header-forgot .header-content form div input::placeholder {
+  color: white;
+}
+
+.header-forgot .header-content form div button.button-send {
+  margin-top: 31px;
+  height: 79px;
+  width: 447px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+  background-color: #FFCD61;
+  color: black;
+  font-weight: 900;
+  border: none;
+}
+
+.header-forgot .header-content p.text {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 54px;
+}
+
+footer.footer .row.text {
+  margin-bottom: 78px;
+}
+
+footer.footer {
+  margin-top: 69px;
+}
+
+footer.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+footer.footer .description {
+  margin-top: 26px;
+  margin-bottom: 53px;
+  width: 300px;
+}
+
+footer.footer .link-social {
+  border-top: 1px solid #C4C4C4;
+  padding: 31px;
+  text-align: center;
+}
+
+footer.footer .link-social i {
+  font-size: 25px;
+  margin-left: 17.5px;
+  margin-right: 17.5px;
+}
+
+@media (max-width: 500px) {
+  .header-forgot .header-content {
+    padding: 0 10px;
+  }
+
+  .header-forgot .header-content form div input {
+    width: 100%;
+  }
+
+  .header-forgot .header-content form div button.button-send {
+    width: 100%;
+  }
+}
