@@ -381,14 +381,17 @@ button {
   background-image: url(./images/home.png);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 1535px;
   margin-top: 40px;
 
 }
 
 .header-home .content-home {
   background-color: rgba(0, 0, 0, 0.3);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 763px;
-  width: 1518px;
+  width: 1535px;
   color: white;
 }
 
@@ -419,7 +422,6 @@ button {
   font-size: 30px;
   margin-right: 76px;
   color: black;
-  border: 10px;
 }
 
 .header-home .content-home form button.location {
@@ -482,5 +484,160 @@ button {
 }
 
 .header-home .content-home form button span i {
-  margin-left: 74px;
+  margin-left: 100px;
+}
+
+footer p.hei {
+  font-family: 'Playfair Display', serif;
+  margin-top: 82px;
+  margin-left: 139px;
+  color: #000;
+  font-weight: bold;
+  line-height: 50px;
+  font-size: 36px;
+}
+
+footer p.hai {
+  color: #FB8F1D;
+  font-size: 17px;
+  margin-top: 82px;
+  line-height: 50px;
+  margin-right: 196px;
+}
+
+footer div.image {
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+}
+
+footer div img {
+  margin-top: 55px;
+  margin-left: 10.5px;
+  margin-right: 10.5px;
+  border-radius: 8px;
+}
+
+footer div.image .merapi {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: white;
+  margin-top: 30px;
+  margin-left: 98px;
+  margin-right: 100px;
+  border-radius: 0px 6px 0px 0px;
+  width: 100px;
+  height: 50px;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+}
+
+footer div.image .telukbogam {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: white;
+  margin-top: 30px;
+  margin-left: 381px;
+  margin-right: 100px;
+  border-radius: 0px 6px 0px 0px;
+  width: 100px;
+  height: 50px;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+}
+
+footer div.image .bromo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: white;
+  margin-top: 30px;
+  margin-left: 677px;
+  margin-right: 100px;
+  border-radius: 0px 6px 0px 0px;
+  width: 100px;
+  height: 50px;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+}
+
+footer div.image .malioboro {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: white;
+  margin-top: 30px;
+  margin-left: 959px;
+  margin-right: 100px;
+  border-radius: 0px 6px 0px 0px;
+  width: 100px;
+  height: 50px;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+}
+
+footer div.text-pic {
+  margin-left: 680px;
+  margin-right: 740px;
+}
+
+footer div.texts2 {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  margin-top: 50px;
+  margin-left: 139px;
+}
+
+footer .stars {
+  color: #FFBB0C;
+  margin-left: 135px;
+  margin-top: 100px;
+}
+
+footer .stars i {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+footer .text-description p.d-text {
+  font-family: 'Mulish', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 450px;
+  height: 144.03px;
+}
+
+footer .text-description img {
+  width: 21px;
+  height: 22px;
+  margin-top: 80px;
+}
+
+footer .s-text p.s-text-1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  line-height: 48px;
+  margin-left: 144px;
+  margin-top: 40px;
+  width: 183px;
+  height: 48px;
+  font-weight: 700;
+  bottom: 0;
+}
+
+footer .s-text p.d-text-1 {
+  font-family: 'Nunito', sans-serif;
+  color: rgba(57, 57, 57, 0.85);
+  font-size: 18px;
+  line-height: 48px;
+  margin-left: 144px;
+  width: 124px;
+  height: 48px;
+  font-weight: 400;
 }
