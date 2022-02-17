@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap" rel="stylesheet">
     <!--Custom CSS-->
     <link rel="stylesheet" href="./assets/style.css">
 </head>
@@ -54,7 +55,7 @@
       <div class="header-pic">
         <h1 class="text-1">Explore and Trave</h1>
         <h1 class="text-2"> Vehicle Finder </h1>
-        <span><i class="fa-solid fa-horizontal-rule"></i></span>
+        <i class="fa-solid fa-horizontal-rule"></i>
       </div>
       <form>
         <button class="location">Location      <span><i class="fa-solid fa-chevron-down"></i></span>    </button>
@@ -65,4 +66,72 @@
       </form>
     </div>
   </header>
+  <footer>
+    <div class="texts d-flex justify-content-between">
+      <div>
+        <p class="hei">Popular in Town </p>
+      </div>
+      <div>
+        <p class="hai">view all <i class="fa-solid fa-chevron-right"> </i></p> 
+      </div>      
+    </div>
+    <div class="image d-flex justify-content-center">
+      <div>
+        <img src="./assets/images/merapi.png" alt="Merapi">
+        <div class="merapi">Merapi <br> Yogyakarta  </div>
+      </div>
+      <div>
+        <img src="./assets/images/telukbogam.png" alt="TelukBogam">
+        <div class="telukbogam">Teluk Bogam <br> Kalimantan  </div>
+      </div>
+      <div>
+        <img src="./assets/images/bromo.png" alt="Bromo">
+        <div class="bromo">Bromo <br>Malang </div>
+      </div>
+      <div>
+        <img src="./assets/images/malioboro.png" alt="Malioboro">
+        <div class="malioboro">Malioboro <br> Yogyakarta  </div>
+      </div>
+    </div>
+    <div class="text-pic">
+      <img src="./assets/images/element.png" alt="Element">
+    </div>
+    <div class="texts2">
+      <p>Testimonials</p>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="stars d-flex">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="text-description d-flex">
+          <img src="./assets/images/element.png" alt="Element">
+          <p class="d-text"> ”It was the right decision to rent vehicle here, I spent less money and enjoy the trip. It was an amazing experience to have a ride for wildlife trip!”</p>
+        </div>
+        <div class="s-text">
+          <p class="s-text-1">Edward Newgate</p>
+          <p class="d-text-1">Founder Circle</p>
+        </div>
+      </div>
+      <div class="col">
+        <img src="./assets/images/people.png" alt="People">
+      </div>
+    </div>
+  </footer>
+  <div id="footer"></div>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script>
+    $( document ).ready(function() {
+        $.get('./footer.html', (res)=>{
+          $('#footer').html(res)
+        })
+    });
+  </script>
 </body>
