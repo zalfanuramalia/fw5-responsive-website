@@ -392,24 +392,95 @@ button {
   color: white;
 }
 
-.header-home .content-home .header-nav h1.heading {
+.header-home .content-home .header-pic h1.text-1 {
+  position: absolute;
+  color: white;
   font-size: 64px;
   font-family: 'Playfair Display', serif;
-  text-align: justify;
-  font-weight: 700;
+  text-align: left;
+  font-weight: 900;
   line-height: 80px;
   padding: 69px 963px 537px 121px;
 }
 
-.header-home .content-home .header-nav span.text {
-  color: white;
+.header-home .content-home .header-pic h1.text-2 {
+  position: absolute;
   font-size: 22px;
   font-family: 'Nunito', sans-serif;
   text-align: justify;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 30px;
+  padding: 300px 1167px 433px 121px;
 }
 
-.header-home .content-home .header-nav i.fa-solid {
+.header-home .content-home .header-pic span i {
+  position: absolute;
+  border-radius: 4px;
+  font-size: 30px;
+  margin-right: 76px;
   color: black;
+  border: 10px;
+}
+
+.header-home .content-home form button.location {
+  position: absolute;
+  width: 220px;
+  height: 52px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 0.8px solid #AFB0B9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-left: 121px;
+  margin-top: 400px;
+}
+
+.header-home .content-home form button.type {
+  position: absolute;
+  width: 220px;
+  height: 52px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 0.8px solid #AFB0B9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-left: 373px;
+  margin-top: 400px;
+}
+
+.header-home .content-home form button.payment {
+  position: absolute;
+  width: 220px;
+  height: 52px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 0.8px solid #AFB0B9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-left: 121px;
+  margin-top: 487px;
+}
+
+.header-home .content-home form button.date {
+  position: absolute;
+  width: 220px;
+  height: 52px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 0.8px solid #AFB0B9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-left: 373px;
+  margin-top: 487px;
+}
+
+.header-home .content-home form button.explore {
+  position: absolute;
+  width: 180px;
+  height: 52.01px;
+  border: 0.8px solid #AFB0B9;
+  background: #FFCD61;
+  border-radius: 8px;
+  margin-left: 121px;
+  margin-top: 591px;
+}
+
+.header-home .content-home form button span i {
+  margin-left: 74px;
 }
