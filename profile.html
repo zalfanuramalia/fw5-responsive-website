@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <!--Bootstrap CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js" integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./vehicle.html">Vehicle</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <div class="toggled-action d-inline-block position-relative">
+          <img src="./assets/images/message.png" alt="Email" >
+          <img src="./assets/images/people-3.png" alt="Picture" class="img-thumbnail rounded-circle"/>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <form class="profile-edit">
+    <main class="container">  
+      <div class="profile mb-5">
+        <h5>Profile</h5>
+      </div>
+      <div class="text-center mb-5">
+        <div class="mb-5">
+          <div class="d-inline-block position-relative">
+            <img src="./assets/images/people-2.png" alt="Profile Picure" class="img-thumbnail rounded-circle" />
+            <button class="edit-photo"><i class="fa-solid fa-pencil"></i></button>
+          </div>
+        </div>
+        <div>
+          <h1 class="big-name">Samantha Doe</h1>
+        </div>
+        <div class="details">
+          <div>samanthadoe@mail.com</div>
+          <div>+62833467823</div>
+          <div>Has been active since 2013</div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <div class="me-5">
+          <input type="radio" name="gender">
+          <label>Male</label>
+        </div>
+        <div>
+          <input type="radio" name="gender">
+          <label>Female</label>
+        </div>
+      </div>
+      <div class="mb-5">
+        <h5>Contact</h5>
+      </div>
+      <div class="mb-5">
+        <label>Email: </label>
+        <input class="d-block w-100 input-underline" type="email" value="zulaikha17@gmail.com" />
+      </div>
+      <div class="mb-5">
+        <label>Address: </label>
+        <textarea class="d-block w-100 input-underline">Iskandar Street no. 67 Block A Near Bus Stop</textarea>
+      </div>
+      <div class="mb-5">
+        <label>Mobile Number: </label>
+        <input class="d-block w-100 input-underline" type="text" value="(+62)813456782"/>
+      </div>
+      <div class="mb-5">
+        <h5>Identity</h5>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label>Display Name: </label>
+          <input class="d-block w-100 input-underline" type="text" />
+        </div>
+        <div class="col">
+          <label>DD/MM/YY: </label>
+          <input class="d-block w-100 input-underline" type="date" />
+        </div>
+      </div>
+      <div class="mt-5 d-flex justify-content-between">
+        <div>
+          <button class="button-filled">Save Change</button>
+        </div>
+        <div>
+          <button class="button-dark">Edit Password</button>
+        </div>
+        <div>
+          <button class="button-gray">Cancel</button>
+        </div>
+      </div>
+    </main>
+  </form>
+  <div id="footer"></div>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script>
+    $( document ).ready(function() {
+        $.get('./footer.html', (res)=>{
+          $('#footer').html(res)
+        })
+    });
+  </script>
+</body>
+</html>
