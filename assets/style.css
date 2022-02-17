@@ -254,6 +254,48 @@ aside.login .text2 form div button.button-register {
   margin-top: 54px;
 }
 
+aside.login .text2 .text-desc {
+  background-color: #F9F9FB;
+  background-position: absolute;
+  width: 736px;
+  height: 470px;
+}
+
+aside.login .text2 .text-desc img {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+  margin-top: 100px;
+  margin-left: 57px;
+  line-height: 28px;
+}
+
+aside.login .text2 .text-desc .description {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+  margin-top: 39px;
+  line-height: 28px;
+  color: #848484;
+  margin-left: 57px;
+}
+
+aside.login .text2 .desc {
+  font-size: 17px;
+  padding-top: 53.64px;
+  font-weight: 300;
+  color: #848484;
+  margin-left: 57px;
+}
+
+aside.login .text2 .link-social {
+  border-top: 1px solid #C4C4C4;
+  width: 461px;
+  padding: 31px;
+  text-align: center;
+  height: 19px;
+}
+
 nav.navbar .container {
   padding-top: 60px;
 }
@@ -370,5 +412,4 @@ button {
 
 .header-home .content-home .header-nav i.fa-solid {
   color: black;
-
 }
