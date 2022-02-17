@@ -90,8 +90,13 @@ footer.footer {
   margin-top: 69px;
 }
 
+footer.footer .col-md-2 {
+  margin-top: 50px;
+}
+
 footer.footer ul {
   list-style-type: none;
+  margin-top: 20px;
   padding-left: 0;
   margin-bottom: 0;
 }
