@@ -622,6 +622,7 @@ footer .text-description img {
   width: 21px;
   height: 22px;
   margin-top: 80px;
+  margin-left: unset;
 }
 
 footer .s-text p.s-text-1 {
@@ -645,4 +646,131 @@ footer .s-text p.d-text-1 {
   width: 124px;
   height: 48px;
   font-weight: 400;
+}
+
+nav.navbar {
+  height: 168px;
+}
+
+nav.container {
+  padding-top: 81px;
+}
+
+nav.container .link {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+nav.container .link li {
+  display: inline-block;
+  margin: 0 17.5px;
+}
+
+nav.container .link li a {
+  color: #B8BECD;
+  text-decoration: none;
+}
+
+nav.container .link li a.active {
+  color: #000;
+}
+
+form .container .profile h5 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 24px;
+  margin-top: 116px;
+  width: 54.62px;
+  height: 66.15px;
+}
+
+form .container img {
+  border: unset;
+}
+
+button {
+  min-width: 132px;
+  min-height: 44px;
+  border-radius: 8px;
+}
+
+.button-outline {
+  background-color: transparent;
+  border: 1px solid #FFCD61;
+  /* border-width: 1px;
+  border-color: #FFCD61;
+  border-style: solid; */
+}
+
+.button-filled {
+  background-color: #FFCD61;
+  border: unset;
+}
+
+.button-dark {
+  background-color: #393939;
+  border: unset;
+}
+
+.button-gray {
+  background-color: rgba(203, 203, 212, 0.27);
+  border: unset;
+}
+
+.profile-edit .button-filled,
+.profile-edit .button-dark,
+.profile-edit .button-gray {
+  width: 322px;
+  height: 89px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.profile-edit .button-dark {
+  color: #FFCD61;
+}
+
+.profile-edit .big-name {
+  font-family: 'Playfair Display', Times, serif;
+  font-weight: bold;
+}
+
+.profile-edit .details {
+  font-weight: bold;
+  color: #B8BECD;
+  font-size: 24px;
+}
+
+.profile-edit .edit-photo {
+  position: absolute;
+  background: #FFCD61;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  min-height: unset;
+  min-width: unset;
+  border: unset;
+  color: #393939;
+  bottom: 0;
+  right: 0;
+}
+
+.input-underline {
+  border: 0;
+  border-bottom: 1px solid #000;
+  padding-bottom: 26px;
+  height: 40px;
+}
+
+.input-underline:focus {
+  outline: none;
+}
+
+nav.navbar .container .collapse .toggled-action img {
+  margin-left: 38px;
+  border: unset;
 }
