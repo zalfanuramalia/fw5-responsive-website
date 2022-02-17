@@ -253,3 +253,122 @@ aside.login .text2 form div button.button-register {
   text-align: center;
   margin-top: 54px;
 }
+
+nav.navbar .container {
+  padding-top: 60px;
+}
+
+nav.container .link {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+nav.container .link li {
+  display: inline-block;
+  margin: 0 17.5px;
+}
+
+nav.container .link li a {
+  color: #B8BECD;
+  text-decoration: none;
+}
+
+nav.container .link li a.active {
+  color: #000;
+}
+
+button {
+  min-width: 132px;
+  min-height: 44px;
+  border-radius: 8px;
+}
+
+.button-outline {
+  background-color: transparent;
+  border: 1px solid #FFCD61;
+  /* border-width: 1px;
+  border-color: #FFCD61;
+  border-style: solid; */
+}
+
+.button-filled {
+  background-color: #FFCD61;
+  border: unset;
+}
+
+
+@media (max-width: 500px) {
+  .header-forgot .header-content {
+    padding: 0 10px;
+  }
+
+  .header-forgot .header-content form div input {
+    width: 100%;
+  }
+
+  .header-forgot .header-content form div button.button-send {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .toggled-action {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1439px) {
+  .navigation {
+    height: 80px;
+  }
+
+  .logo-brand {
+    justify-content: center;
+  }
+
+  .auth-action {
+    text-align: center;
+  }
+}
+
+.header-home {
+  background-image: url(./images/home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+
+}
+
+.header-home .content-home {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 763px;
+  width: 1518px;
+  color: white;
+}
+
+.header-home .content-home .header-nav h1.heading {
+  font-size: 64px;
+  font-family: 'Playfair Display', serif;
+  text-align: justify;
+  font-weight: 700;
+  line-height: 80px;
+  padding: 69px 963px 537px 121px;
+}
+
+.header-home .content-home .header-nav span.text {
+  color: white;
+  font-size: 22px;
+  font-family: 'Nunito', sans-serif;
+  text-align: justify;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+.header-home .content-home .header-nav i.fa-solid {
+  color: black;
+
+}
