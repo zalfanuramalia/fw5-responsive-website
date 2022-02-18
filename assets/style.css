@@ -252,13 +252,6 @@ aside.login .text2 form div button.button-register {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
-aside.login .text2 form div button.button-register {
-  font-size: 24px;
-  font-weight: 900;
-  text-align: center;
-  margin-top: 54px;
-}
-
 aside.login .text2 .text-desc {
   background-color: #F9F9FB;
   background-position: absolute;
@@ -773,4 +766,104 @@ button {
 nav.navbar .container .collapse .toggled-action img {
   margin-left: 38px;
   border: unset;
+}
+
+/* style.css register.html */
+
+aside.login .text2 h1.text-signup {
+  width: 172px;
+  height: 64px;
+  margin-top: 95px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  font-size: 48px;
+  line-height: 63.98px;
+  font-family: 'Playfair Display', serif;
+  text-align: justify;
+  font-weight: bold;
+}
+
+aside.login .text2 h1.text-again {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  color: rgba(57, 57, 57, 0.5);
+  font-weight: bold;
+  height: 33px;
+  line-height: 32px;
+  margin-top: 35px;
+}
+
+aside.login .text2 form div button.button-email {
+  margin-top: 34px;
+  margin-left: 100px;
+  height: 79px;
+  width: 490px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(78, 78, 78, 0.4);
+  color: black;
+  font-weight: 900;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+aside.login .text2 form div button.button-login-2 {
+  margin-top: 57px;
+  margin-left: 100px;
+  height: 79px;
+  width: 490px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+  background-color: #393939;
+  color: #FFCD61;
+  font-weight: 900;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+aside.login .text2 .text-desc {
+  background-color: #F9F9FB;
+  background-position: absolute;
+  width: 736px;
+  height: 470px;
+}
+
+aside.login .text2 .text-desc img {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+  margin-top: 100px;
+  margin-left: 57px;
+  line-height: 28px;
+}
+
+aside.login .text2 .text-desc .description {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+  margin-top: 39px;
+  line-height: 28px;
+  color: #848484;
+  margin-left: 57px;
+}
+
+aside.login .text2 .desc {
+  font-size: 17px;
+  padding-top: 53.64px;
+  font-weight: 300;
+  color: #848484;
+  margin-left: 57px;
+}
+
+aside.login .text2 .link-social {
+  border-top: 1px solid #C4C4C4;
+  width: 461px;
+  padding: 31px;
+  text-align: center;
+  height: 19px;
 }
