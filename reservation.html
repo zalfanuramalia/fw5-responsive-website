@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation</title>
+  <!--Bootstrap CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js" integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <div id="nav"></div>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./vehicle.html">Vehicle</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <div class="toggled-action d-inline-block position-relative">
+          <img src="./assets/images/message.png" alt="Email" >
+          <img src="./assets/images/people-3.png" alt="Picture" class="img-thumbnail rounded-circle"/>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="payment">
+    <div class="reserve">
+      <i class="fa-solid fa-chevron-left"></i>
+      <span>Reservation</span>
+    </div>
+    <div class="container-fluid g-0">
+      <div class="row g-0">
+        <div class="col">
+          <img src="./assets/images/fixie-2.png" alt="Fixie">
+        </div>
+        <div class="col info">
+          <div>
+            <h1 class="text-1">Fixie - Gray Only </h1>
+            <h1 class="text-2"> Yogyakarta</h1>
+            <p class="text-3">No Prepayment</p>
+            <div class="qty ">
+              <span class="minus "><i class="fa-solid fa-minus"></i></span>
+              <input type="number" class="count" name="qty" value="2">
+              <span class="plus "><i class="fa-solid fa-plus"></i></span>
+            </div>
+            <div class="text-4">
+              <p>Reservation Date :</p>
+            </div>
+            <div class="op-1">
+              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option class="sel" selected>Select date</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="op-2">
+              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pay">
+      <button>Pay now : Rp. 178.000</button>
+    </div>
+  </div>
+  
+  <div id="footer"></div>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script>
+    $( document ).ready(function() {
+        $.get('./footer.html', (res)=>{
+          $('#footer').html(res)
+        })
+    });
+  </script>
+</body>
+</html>
