@@ -267,9 +267,9 @@ a {
 .login .text2 .text-desc {
   background-color: #F9F9FB;
   background-position: absolute;
-  width: 736px;
+  width: 780px;
   height: 470px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .login .text2 .text-desc-1 img {
@@ -297,12 +297,15 @@ a {
   margin-top: 20px;
   font-weight: 300;
   color: #848484;
-  margin-left: 10px;
+  margin-left: 58px;
+  padding-top: unset;
 }
 
 .login .text2 .text-desc-1 .link-social {
   border-top: 1px solid #C4C4C4;
   text-align: center;
+  margin-left: 100px;
+  padding: unset;
 }
 
 .login .text2 .text-desc-1 .link-social i {
@@ -433,15 +436,17 @@ button {
   padding: 300px 1167px 433px 121px;
 }
 
-.header-home .content-home .header-pic span i {
-  position: absolute;
+.header-home .content-home .header-pic i {
+  margin-left: 121px;
+  margin-top: 348px;
+  align-items: justify;
+  background: #FFFFFF;
   border-radius: 4px;
-  font-size: 30px;
-  margin-right: 76px;
-  color: black;
+  width: 32px;
+  height: 2px;
 }
 
-.header-home .content-home form button.location {
+.header-home .content-home form .type-1 .select-1 select {
   position: absolute;
   width: 220px;
   height: 52px;
@@ -450,10 +455,22 @@ button {
   box-sizing: border-box;
   border-radius: 6px;
   margin-left: 121px;
-  margin-top: 400px;
+  margin-top: 50px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
 }
 
-.header-home .content-home form button.type {
+.header-home .content-home form .type-1 .select-1 i {
+  margin-left: 310px;
+  margin-top: 68px;
+  position: absolute;
+  color: #4A4C53;
+}
+
+
+.header-home .content-home form .type-1 .select-2 select {
   position: absolute;
   width: 220px;
   height: 52px;
@@ -462,10 +479,21 @@ button {
   box-sizing: border-box;
   border-radius: 6px;
   margin-left: 373px;
-  margin-top: 400px;
+  margin-top: 50px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
 }
 
-.header-home .content-home form button.payment {
+.header-home .content-home form .type-1 .select-2 i {
+  margin-left: 560px;
+  margin-top: 68px;
+  position: absolute;
+  color: #4A4C53;
+}
+
+.header-home .content-home form .type-2 .select-1 select {
   position: absolute;
   width: 220px;
   height: 52px;
@@ -474,10 +502,21 @@ button {
   box-sizing: border-box;
   border-radius: 6px;
   margin-left: 121px;
-  margin-top: 487px;
+  margin-top: 130px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
 }
 
-.header-home .content-home form button.date {
+.header-home .content-home form .type-2 .select-1 i {
+  margin-left: 310px;
+  margin-top: 148px;
+  position: absolute;
+  color: #4A4C53;
+}
+
+.header-home .content-home form .type-2 .select-2 select {
   position: absolute;
   width: 220px;
   height: 52px;
@@ -486,7 +525,18 @@ button {
   box-sizing: border-box;
   border-radius: 6px;
   margin-left: 373px;
-  margin-top: 487px;
+  margin-top: 130px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.header-home .content-home form .type-2 .select-2 i {
+  margin-left: 560px;
+  margin-top: 148px;
+  position: absolute;
+  color: #4A4C53;
 }
 
 .header-home .content-home form button.explore {
@@ -497,7 +547,11 @@ button {
   background: #FFCD61;
   border-radius: 8px;
   margin-left: 121px;
-  margin-top: 591px;
+  margin-top: 225px;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 50px;
+  font-family: 'Nunito', sans-serif;
 }
 
 .header-home .content-home form button span i {
@@ -598,6 +652,41 @@ footer div.image .malioboro {
 footer div.text-pic {
   margin-left: 680px;
   margin-right: 740px;
+  position: relative;
+}
+
+
+footer .text-pic .element {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 450px;
+  top: 175px;
+}
+
+footer .text-pic .element-2 {
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  top: 706px;
+  color: #FDD08D;
+  width: 31.72px;
+  height: 31.65px;
+  font-size: 48px;
+}
+
+footer .text-pic .element-3 {
+  position: absolute;
+  bottom: 0;
+  left: 400px;
+  top: 695px;
+  color: black;
+  font-size: 40px;
+  background-color: white;
+  background: #FFFFFF;
+  border-radius: 16px 0px 0px 0px;
+  width: 132px;
+  height: 60px;
 }
 
 footer div.texts2 {
@@ -715,9 +804,6 @@ button {
 .button-outline {
   background-color: transparent;
   border: 1px solid #FFCD61;
-  /* border-width: 1px;
-  border-color: #FFCD61;
-  border-style: solid; */
 }
 
 .button-filled {
