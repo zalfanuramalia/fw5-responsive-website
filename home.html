@@ -55,13 +55,49 @@
       <div class="header-pic">
         <h1 class="text-1">Explore and Trave</h1>
         <h1 class="text-2"> Vehicle Finder </h1>
-        <i class="fa-solid fa-horizontal-rule"></i>
+        <div><i class="fa-solid fa-horizontal-rule"></i></div>
       </div>
       <form>
-        <button class="location">Location      <span><i class="fa-solid fa-chevron-down"></i></span>    </button>
-        <button class="type">Type     <span><i class="fa-solid fa-chevron-down"></i></span>    </button>
-        <button class="payment">Payment    <span><i class="fa-solid fa-chevron-down"></i></span>    </button>
-        <button class="date">Date     <span><i class="fa-solid fa-chevron-down"></i></span>    </button>
+        <div class="d-flex type-1">
+          <div class="select-1">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Location</option>
+              <option value="1">Yogyakarta</option>
+              <option value="2">Malang</option>
+              <option value="3">Kalimantan</option>
+            </select>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="select-2">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Type</option>
+              <option value="1">Cars</option>
+              <option value="2">Motorbike</option>
+              <option value="3">Bike</option>
+            </select>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <div class="d-flex type-2">
+          <div class="select-1">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Payment</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="select-2">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Date</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
         <button class="explore">Explore</button>
       </form>
     </div>
@@ -94,7 +130,15 @@
       </div>
     </div>
     <div class="text-pic">
-      <img src="./assets/images/element.png" alt="Element">
+      <div class="d-inline-block position-relative img-1">
+        <img src="./assets/images/element.png" alt="Element">
+        <img src="./assets/images/element-2.png" alt="Element-2" class="element">
+        <div class="element-2"><i class="fa-solid fa-plus"></i></div>
+        <div class="d-flex element-3">
+          <i class="fa-solid fa-circle-chevron-left"></i>
+          <i class="fa-solid fa-circle-chevron-right"></i>
+        </div>
+      </div>
     </div>
     <div class="texts2">
       <p>Testimonials</p>
