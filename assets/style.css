@@ -2,6 +2,8 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+/* style.css forgot-password.html */
+
 .header-forgot {
   background-image: url(./images/header-forgot.png);
   background-repeat: no-repeat;
@@ -87,7 +89,8 @@ footer.footer .row.text {
 }
 
 footer.footer {
-  margin-top: 69px;
+  margin-top: 100px;
+  background-color: #F9F9FB;
 }
 
 footer.footer .col-md-2 {
@@ -133,14 +136,15 @@ footer.footer .link-social i {
   }
 }
 
-aside.login .text1 {
-  width: 720px;
-  height: 1463px;
-  background-image: url(./images/header-login.png);
+/* style.css login.html */
+
+.login .bg-image {
+  background-image: url('./images/header-login.png');
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
-aside.login .text2 {
+.login .text2 {
   font-size: 48px;
   font-family: 'Playfair Display', serif;
   text-align: justify;
@@ -148,7 +152,7 @@ aside.login .text2 {
   line-height: 63.98px;
 }
 
-aside.login .text2 h1.text-login {
+.login .text2 form h1.text-login {
   width: 128px;
   height: 64px;
   margin-top: 95px;
@@ -161,7 +165,7 @@ aside.login .text2 h1.text-login {
   font-weight: bold;
 }
 
-aside.login .text2 form div input {
+.login .text2 form div input {
   background-color: rgba(218, 218, 218, 0.28);
   border: 0.5px solid rgba(78, 78, 78, 0.5);
   width: 489px;
@@ -174,17 +178,17 @@ aside.login .text2 form div input {
   border-radius: 10px;
 }
 
-aside.login .text2 form div input:focus {
+.login .text2 form div input:focus {
   outline: none;
 }
 
-aside.login .text2 form div input::placeholder {
+.login .text2 form div input::placeholder {
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
   padding: 23px 389px 23px 41px;
 }
 
-aside.login .text2 form div button.button-send {
+.login .text2 form div button.button-send {
   margin-top: 57px;
   margin-left: 100px;
   height: 79px;
@@ -200,7 +204,11 @@ aside.login .text2 form div button.button-send {
   box-shadow: 0px 0px 20px rgba(248, 161, 112, 0.47);
 }
 
-aside.login .text2 form p.text-forgot {
+a {
+  color: #000;
+}
+
+.login .text2 form div a {
   font-size: 18px;
   line-height: 28px;
   margin-left: 100px;
@@ -211,7 +219,7 @@ aside.login .text2 form p.text-forgot {
   line-height: 63.98px;
 }
 
-aside.login .text2 h1.text-again {
+.login .text2 div.text-again {
   font-family: 'Nunito', sans-serif;
   text-align: center;
   font-size: 24px;
@@ -220,7 +228,11 @@ aside.login .text2 h1.text-again {
   height: 33px;
 }
 
-aside.login .text2 form div button.button-mail {
+.login .text2 div.text-again .border {
+  border: 1px solid #4E4E4E;
+}
+
+.login .text2 form div button.button-mail {
   margin-top: 57px;
   margin-left: 100px;
   height: 79px;
@@ -236,8 +248,8 @@ aside.login .text2 form div button.button-mail {
   font-family: 'Nunito', sans-serif;
 }
 
-aside.login .text2 form div button.button-register {
-  margin-top: 57px;
+.login .text2 form div button.button-register {
+  margin-top: 40px;
   margin-left: 100px;
   height: 79px;
   width: 490px;
@@ -252,46 +264,51 @@ aside.login .text2 form div button.button-register {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
-aside.login .text2 .text-desc {
+.login .text2 .text-desc {
   background-color: #F9F9FB;
   background-position: absolute;
   width: 736px;
   height: 470px;
+  margin-top: 20px;
 }
 
-aside.login .text2 .text-desc img {
+.login .text2 .text-desc-1 img {
   font-size: 18px;
   font-weight: 300;
   text-align: justify;
-  margin-top: 100px;
-  margin-left: 57px;
+  margin-top: 80px;
+  margin-left: 10px;
   line-height: 28px;
 }
 
-aside.login .text2 .text-desc .description {
+.login .text2 .text-desc-1 .description {
   font-size: 18px;
   font-weight: 300;
   text-align: justify;
-  margin-top: 39px;
+  margin-top: 18px;
   line-height: 28px;
   color: #848484;
-  margin-left: 57px;
+  margin-left: 10px;
+  margin-right: 250px;
 }
 
-aside.login .text2 .desc {
+.login .text2 .text-desc-1 .desc {
   font-size: 17px;
-  padding-top: 53.64px;
+  margin-top: 20px;
   font-weight: 300;
   color: #848484;
-  margin-left: 57px;
+  margin-left: 10px;
 }
 
-aside.login .text2 .link-social {
+.login .text2 .text-desc-1 .link-social {
   border-top: 1px solid #C4C4C4;
-  width: 461px;
-  padding: 31px;
   text-align: center;
-  height: 19px;
+}
+
+.login .text2 .text-desc-1 .link-social i {
+  font-size: 25px;
+  margin-left: 17.5px;
+  margin-right: 17.5px;
 }
 
 nav.navbar .container {
@@ -374,6 +391,8 @@ button {
     text-align: center;
   }
 }
+
+/* style.css home.html */
 
 .header-home {
   background-image: url(./images/home.png);
@@ -641,6 +660,8 @@ footer .s-text p.d-text-1 {
   font-weight: 400;
 }
 
+/* style.css profile.html */
+
 nav.navbar {
   height: 168px;
 }
@@ -752,6 +773,36 @@ button {
   right: 0;
 }
 
+.radio-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.radio-button input {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.radio-button .checkmark {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  border: 3px solid #9F9F9F;
+  display: inline-block;
+}
+
+.radio-button .text {
+  display: inline-block;
+  margin-left: 19px;
+}
+
+.radio-button input:checked~.checkmark {
+  border-color: #393939;
+  background-color: #FFCD61;
+}
+
 .input-underline {
   border: 0;
   border-bottom: 1px solid #000;
@@ -763,14 +814,14 @@ button {
   outline: none;
 }
 
-nav.navbar .container .collapse .toggled-action img {
+.collapse .toggled-action img {
   margin-left: 38px;
   border: unset;
 }
 
 /* style.css register.html */
 
-aside.login .text2 h1.text-signup {
+div.login .text2 h1.text-signup {
   width: 172px;
   height: 64px;
   margin-top: 95px;
@@ -783,7 +834,7 @@ aside.login .text2 h1.text-signup {
   font-weight: bold;
 }
 
-aside.login .text2 h1.text-again {
+div.login .text2 h1.text-again {
   font-family: 'Nunito', sans-serif;
   text-align: center;
   font-size: 24px;
@@ -794,7 +845,7 @@ aside.login .text2 h1.text-again {
   margin-top: 35px;
 }
 
-aside.login .text2 form div button.button-email {
+div.login .text2 form div button.button-email {
   margin-top: 34px;
   margin-left: 100px;
   height: 79px;
@@ -810,7 +861,7 @@ aside.login .text2 form div button.button-email {
   font-family: 'Nunito', sans-serif;
 }
 
-aside.login .text2 form div button.button-login-2 {
+div.login .text2 form div button.button-login-2 {
   margin-top: 57px;
   margin-left: 100px;
   height: 79px;
@@ -826,14 +877,14 @@ aside.login .text2 form div button.button-login-2 {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
-aside.login .text2 .text-desc {
+div.login .text2 .text-desc {
   background-color: #F9F9FB;
   background-position: absolute;
   width: 736px;
   height: 470px;
 }
 
-aside.login .text2 .text-desc img {
+div.login .text2 .text-desc img {
   font-size: 18px;
   font-weight: 300;
   text-align: justify;
@@ -842,7 +893,7 @@ aside.login .text2 .text-desc img {
   line-height: 28px;
 }
 
-aside.login .text2 .text-desc .description {
+div.login .text2 .text-desc .description {
   font-size: 18px;
   font-weight: 300;
   text-align: justify;
@@ -852,7 +903,7 @@ aside.login .text2 .text-desc .description {
   margin-left: 57px;
 }
 
-aside.login .text2 .desc {
+div.login .text2 .desc {
   font-size: 17px;
   padding-top: 53.64px;
   font-weight: 300;
@@ -860,10 +911,871 @@ aside.login .text2 .desc {
   margin-left: 57px;
 }
 
-aside.login .text2 .link-social {
+div.login .text2 .link-social {
   border-top: 1px solid #C4C4C4;
   width: 461px;
   padding: 31px;
   text-align: center;
   height: 19px;
+}
+
+/* style.css vehicle-type.html */
+
+
+.tombol input {
+  position: relative;
+  border: 0.8px solid #AFB0B9;
+  width: 269px;
+  height: 50px;
+}
+
+.tombol .searcher {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: unset;
+  color: #B8BECD;
+  min-height: unset;
+  min-width: unset;
+  border: unset;
+  bottom: 0;
+  right: 0;
+}
+
+.list {
+  margin-left: 110px;
+  margin-right: 210px;
+}
+
+.list .image {
+  margin-top: 55px;
+  position: relative;
+}
+
+.list .image .merapi,
+.list .image .telukbogam,
+.list .image .bromo,
+.list .image .malioboro {
+  position: absolute;
+  background: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 0px 6px 0px 0px;
+  bottom: 0;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.list .image img {
+  border-radius: 10px;
+}
+
+.list .image .telukbogam {
+  width: 120px;
+  left: 308px;
+}
+
+.list .texts {
+  margin-top: 85px;
+}
+
+.list .texts .hei {
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.list .texts .hai {
+  margin-top: 20px;
+  color: #FB8F1D;
+  font-size: 17px;
+}
+
+/* style.css view-more-detail.html */
+
+.list .click {
+  color: #B8BECD;
+  font-size: 24px;
+  line-height: 50px;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+}
+
+.last p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 400;
+  align-items: center;
+  text-align: center;
+  color: #B8BECD;
+  margin-top: 110px;
+}
+
+/* style.css reservation.html */
+
+.payment {
+  margin: 55px 110px 0 130px;
+}
+
+.payment .reserve {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 24px;
+  margin-bottom: 100px;
+}
+
+.payment .reserve i {
+  margin-right: 38px;
+}
+
+.payment .reserve span {
+  margin-left: 38px;
+}
+
+.payment .info {
+  margin-left: 65px;
+}
+
+.payment .info h1.text-1 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 25px;
+  font-family: 'Playfair Display', serif;
+}
+
+.payment .info h1.text-2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 24px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 30px;
+}
+
+.payment .info p.text-3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: 'Nunito', sans-serif;
+  color: #9B0A0A;
+  margin-top: 30px;
+}
+
+.payment .info .text-4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  margin-top: 70px;
+}
+
+div.qty {
+  position: relative;
+  margin-top: 70px;
+}
+
+.qty .count {
+  color: #000;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 25px;
+  align-items: center;
+}
+
+.qty .plus {
+  display: inline-block;
+  background: #FFCD61;
+  color: black;
+  width: 79px;
+  height: 80px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 10px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  align-items: center;
+}
+
+.qty .minus {
+  display: inline-block;
+  background: #EFEFEF;
+  color: black;
+  width: 79px;
+  height: 80px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 10px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  align-items: center;
+}
+
+.qty i {
+  margin-top: 20px;
+}
+
+.qty input.count {
+  border: 0;
+  width: 150px;
+  margin-top: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.op-1 input {
+  background-color: #80918E;
+  opacity: 0.1;
+  border-radius: 10px;
+  border-color: unset;
+  width: 399px;
+  height: 80px;
+  margin-top: 32px;
+  color: rgba(57, 57, 57, 0.8);
+}
+
+.op-2 select {
+  background: rgba(57, 57, 57, 0.8);
+  opacity: 0.1;
+  border-radius: 10px;
+  border-color: unset;
+  width: 399px;
+  height: 80px;
+  margin-top: 32px;
+}
+
+/* style.css payment.html */
+
+.pay button {
+  background: #FFCD61;
+  box-shadow: 0px 0px 20px rgba(251, 143, 29, 0.4);
+  border-radius: 10px;
+  text-align: center;
+  width: 1220px;
+  height: 89px;
+  margin-top: 90px;
+  border: unset;
+  margin-left: 120px;
+}
+
+.pay button p.fin {
+  margin-top: 32px;
+  margin-left: 479px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 25px;
+}
+
+.pay button p.time {
+  margin-top: 32px;
+  margin-left: 5px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 25px;
+  color: red;
+}
+
+.payment .res .res-1 {
+  border: 1px solid #80918E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 452px;
+  height: 107px;
+  text-align: center;
+  margin-right: 19px;
+  margin-top: 70px;
+}
+
+.payment .res .res-2 {
+  border: 1px solid #80918E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 681px;
+  height: 107px;
+  text-align: justify;
+  margin-left: 19px;
+  margin-top: 70px;
+}
+
+.payment .info-img {
+  position: absolute;
+}
+
+.payment .info-pay {
+  margin-left: 500px;
+  margin-top: 8px;
+}
+
+.payment .row>* {
+  width: unset;
+}
+
+.payment .info-pay h1.text-1 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 25px;
+  font-family: 'Playfair Display', serif;
+}
+
+.payment .info-pay h1.text-2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 24px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 30px;
+}
+
+.payment .info-pay p.text-3 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 24px;
+  color: #B8BECD;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.payment .info-pay p.text-4 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 24px;
+  color: #393939;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  margin-top: 45px;
+}
+
+.payment .info-pay button.text-5 {
+  background: #FFCD61;
+  border-radius: 10px;
+  width: 240px;
+  height: 42px;
+  font-weight: bold;
+  border: unset;
+  margin-top: 36px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+}
+
+.result-1 {
+  margin-top: 200px;
+}
+
+.result-1 .res {
+  position: relative;
+}
+
+.result-1 .res .res-1 {
+  position: absolute;
+  bottom: 25px;
+  left: 125px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  position: absolute;
+  border: 1px solid #80918E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 60px;
+  width: 452px;
+  height: 107px;
+}
+
+.result-1 .res .res-1 p {
+  margin-left: 100px;
+  margin-top: 42px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.result-1 .res .res-2 {
+  border: 1px solid #80918E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: justify;
+  position: absolute;
+  bottom: 25px;
+  left: 658px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 60px;
+  width: 681px;
+  height: 107px;
+}
+
+.result-1 .res .res-2 p,
+.result-1 .res .res-2 span {
+  margin-top: 35px;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.result-1 .res .res-2 p {
+  margin-right: 55px;
+  font-weight: bold;
+  position: absolute;
+  left: 35px;
+}
+
+.result-1 .res-2 span {
+  margin-left: 370px;
+  position: absolute;
+}
+
+.result-1 .res-4 {
+  position: relative;
+}
+
+.result-1 .res-4 .res-5 {
+  position: absolute;
+  border: 1px solid #80918E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  left: 125px;
+  width: 452px;
+  height: 245px;
+  text-align: justify;
+  margin-right: 19px;
+  margin-top: 30px;
+}
+
+.result-1 .res-4 .res-6 {
+  border: 1px solid #80918E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: justify;
+  bottom: 25px;
+  margin-left: 658px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 30px;
+  width: 681px;
+  height: 245px;
+  margin-right: unset;
+}
+
+.res-4 .res-5 p.get-1 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 24px;
+  position: absolute;
+  bottom: 170px;
+  left: 64px;
+}
+
+.res-4 .res-5 p.get-2 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  position: absolute;
+  bottom: 84px;
+  left: 64px;
+  line-height: 40px;
+}
+
+.res-4 .res-5 p.get-3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 64px;
+}
+
+.res-4 .res-6 {
+  position: relative;
+  top: 0;
+  width: 681px;
+}
+
+.res-4 .res-6 p {
+  margin-left: 40px;
+}
+
+.res-4 .res-6 p.id-1 {
+  position: absolute;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 24px;
+  bottom: 140px;
+}
+
+.res-4 .res-6 p.id-2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  bottom: 48px;
+  margin-top: 100px;
+}
+
+.result-1 .ress {
+  margin-top: 60px;
+  position: relative;
+  display: inline;
+  margin-left: 123px;
+}
+
+.ress .ress-1 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 24px;
+  color: #393939;
+  margin-top: 25px;
+}
+
+.ress .ress-2 {
+  margin-left: 82px;
+}
+
+.ress .ress-2 p {
+  margin-left: 42px;
+  margin-top: 28px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: 'Playfair Display', serif;
+}
+
+.ress .ress-2 button {
+  margin-left: 118px;
+  margin-top: 18px;
+}
+
+.ress .ress-3 {
+  margin-left: 30px;
+}
+
+.ress .ress-3 .sel-op {
+  background: #FEFEFE;
+  border: 1px solid #80918E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 398px;
+  height: 80px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #80918E;
+  border-color: unset;
+}
+
+.ress .ress-3 span {
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  margin-left: 340px;
+  margin-top: 22px;
+  font-size: 24px;
+  color: #4A4C53;
+  ;
+}
+
+.ress .ress-2 {
+  border: 1px solid #80918E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 481px;
+  height: 80px;
+}
+
+.ress .ress-2 button {
+  background: #393939;
+  border-radius: 10px;
+  width: 124px;
+  height: 42px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFCD61;
+}
+
+/* style.css history.html */
+
+.history-1 {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.one .form-1 {
+  position: relative;
+  margin-left: 110px;
+}
+
+.one .form-1 input {
+  color: #B8BECD;
+  background: rgba(218, 218, 218, 0.27);
+  border: 0.5px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 674px;
+  height: 75px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.one .form-1 input::placeholder {
+  color: #B8BECD;
+}
+
+.one .form-1 input:focus {
+  outline: none;
+}
+
+.one .form-1 i {
+  position: absolute;
+  left: 620px;
+  font-size: 30px;
+  top: 25px;
+}
+
+.one .form-2 {
+  margin-left: 35px;
+  position: relative;
+}
+
+.one .form-2 select {
+  width: 157px;
+  height: 75px;
+  background: rgba(218, 218, 218, 0.27);
+  border: 0.5px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #B8BECD;
+  font-family: 'Poppins', sans-serif;
+}
+
+.one .form-2 i {
+  position: absolute;
+  left: 110px;
+  font-size: 30px;
+  color: #B8BECD;
+  top: 23px;
+}
+
+.one .today {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 180%;
+  color: #C4C4C4;
+  width: 64px;
+  height: 43px;
+  margin-top: 45px;
+  margin-left: 110px;
+}
+
+.one .qt,
+.one .qt-2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #393939;
+}
+
+.one .qt {
+  margin-top: 48px;
+  margin-left: 110px;
+}
+
+.one .underline-1 {
+  border-bottom: 0.5px solid #C4C4C4;
+  width: 866.04px;
+  margin-top: 10px;
+  margin-left: 110px;
+}
+
+.one .qt i {
+  margin-top: 8px;
+  margin-left: 189px;
+  color: #999999;
+}
+
+.one .qt-2 {
+  margin-top: 26px;
+  margin-left: 110px;
+}
+
+.one .qt-2 i {
+  margin-top: 6px;
+  margin-left: 462px;
+  color: #999999;
+}
+
+.one .timer {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 180%;
+  align-items: flex-end;
+  color: #C4C4C4;
+  margin-top: 48px;
+  margin-left: 110px;
+}
+
+.one .image-1 {
+  position: relative;
+  top: 50px;
+  margin-left: 110px;
+}
+
+.one .image-1 .desc {
+  margin-left: 42px;
+  margin-top: 35px;
+}
+
+.one .image-1 .desc .desc-1,
+.one .image-1 .desc .desc-3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 15px;
+  align-items: center;
+  color: #393939;
+}
+
+.one .image-1 .desc .desc-2,
+.one .image-1 .desc .desc-4 {
+  line-height: 5px;
+}
+
+.one .image-1 .desc .desc-3 {
+  margin-top: 25px;
+}
+
+.one .image-1 .desc .desc-4 {
+  color: rgb(6, 240, 6);
+}
+
+.history-1 .one .image-2 {
+  position: relative;
+  top: 100px;
+}
+
+.one .image-2 .desc-again {
+  margin-left: 42px;
+  margin-top: 35px;
+}
+
+.one .image-2 .desc-again .desc-1,
+.one .image-2 .desc-again .desc-3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 15px;
+  align-items: center;
+  color: #393939;
+}
+
+.one .image-2 .desc-again .desc-2,
+.one .image-2 .desc-again .desc-4 {
+  line-height: 5px;
+}
+
+.one .image-2 .desc-again .desc-3 {
+  margin-top: 25px;
+}
+
+.one .image-2 .desc-again .desc-4 {
+  color: rgb(6, 240, 6);
+}
+
+.one .image-2 button {
+  background: #FFCD61;
+  border-radius: 10px;
+  width: 205px;
+  height: 71px;
+  border: unset;
+  box-shadow: 0px 0px 20px rgba(251, 143, 29, 0.4);
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  margin-left: 280px;
+  margin-top: 45px;
+}
+
+.history-1 .two {
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 375px;
+  height: 1006px;
+  align-items: center;
+  margin-left: 62px;
+  position: relative;
+}
+
+.two .new-arrival p {
+  font-weight: 900;
+  font-size: 24px;
+  color: #393939;
+  margin: 40px 40px 40px 120px;
+  font-family: 'Playfair Display', serif;
+}
+
+.two .vehicle-1,
+.two .vehicle-2 {
+  position: relative;
+  margin-left: 50px;
+}
+
+.two .vehicle-1 .telukbogam {
+  position: absolute;
+  background: white;
+  bottom: 0;
+  left: 0;
+  width: 130px;
+  height: 50px;
+  border-radius: 0px 6px 0px 0px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.two .vehicle-2 {
+  margin-top: 50px;
+}
+
+.two .vehicle-2 .malioboro {
+  position: absolute;
+  background: white;
+  bottom: 0;
+  left: 0;
+  width: 130px;
+  height: 50px;
+  border-radius: 0px 6px 0px 0px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.two .view {
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.two .view p {
+  font-weight: normal;
+  font-size: 18px;
+  color: #B8BECD;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.two .view i {
+  color: #4A4C53;
+  margin-left: 30px;
+  font-size: 36px;
 }
