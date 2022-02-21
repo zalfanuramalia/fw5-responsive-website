@@ -254,14 +254,21 @@ a {
   height: 79px;
   width: 490px;
   border-radius: 10px;
-  text-align: center;
-  font-size: 24px;
   background-color: #393939;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.login .text2 form div button.button-register a {
+  text-decoration: none;
   color: #FFCD61;
   font-weight: 900;
   border: none;
+  height: 79px;
+  width: 490px;
+  text-align: center;
+  font-size: 24px;
+  margin: unset;
   font-family: 'Nunito', sans-serif;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
 .login .text2 .text-desc {
@@ -393,6 +400,17 @@ button {
 }
 
 /* style.css home.html */
+
+@media (max-width: 500px) {
+  .header-home .content-home {
+    padding: 0 10px;
+  }
+
+  .header-home .content-home .header-pic h1.text-1 {
+    width: 50%;
+  }
+
+}
 
 .header-home {
   background-image: url(./images/home.png);
@@ -829,6 +847,12 @@ button {
 .button-outline {
   background-color: transparent;
   border: 1px solid #FFCD61;
+
+}
+
+.button-outline a,
+.button-filled a {
+  text-decoration: none;
 }
 
 .button-filled {
@@ -919,6 +943,7 @@ button {
   border-bottom: 1px solid #000;
   padding-bottom: 26px;
   height: 40px;
+  background-color: unset;
 }
 
 .input-underline:focus {
@@ -930,7 +955,32 @@ button {
   border: unset;
 }
 
+@media (max-width: 991px) {
+  .toggled-action {
+    text-align: center;
+  }
+
+  .profile-edit .button-filled,
+  .profile-edit .button-dark,
+  .profile-edit .button-gray {
+    width: 150px;
+    height: 80px;
+    font-weight: 900;
+    font-size: 24px;
+  }
+}
+
 /* style.css register.html */
+
+@media (max-width: 500px) {
+  .login .text2 {
+    padding: 0 10px;
+  }
+
+  .login .text2 .text-signup {
+    width: 100%;
+  }
+}
 
 div.login .text2 h1.text-signup {
   width: 172px;
@@ -979,13 +1029,23 @@ div.login .text2 form div button.button-login-2 {
   width: 490px;
   border-radius: 10px;
   text-align: center;
-  font-size: 24px;
   background-color: #393939;
+  border: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.login .text2 form div button.button-login-2 a {
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
   color: #FFCD61;
   font-weight: 900;
   border: none;
+  height: 79px;
+  width: 490px;
+  text-align: center;
+  font-size: 24px;
+  margin: unset;
   font-family: 'Nunito', sans-serif;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
 div.login .text2 .text-desc {
@@ -1032,6 +1092,11 @@ div.login .text2 .link-social {
 
 /* style.css vehicle-type.html */
 
+@media (max-width: 500px) {
+  .list {
+    padding: 0 10px;
+  }
+}
 
 .tombol input {
   position: relative;
@@ -1246,17 +1311,6 @@ input::-webkit-inner-spin-button {
 }
 
 .op-1 input {
-  background-color: #80918E;
-  opacity: 0.1;
-  border-radius: 10px;
-  border-color: unset;
-  width: 399px;
-  height: 80px;
-  margin-top: 32px;
-  color: rgba(57, 57, 57, 0.8);
-}
-
-.op-2 select {
   background: rgba(57, 57, 57, 0.8);
   opacity: 0.1;
   border-radius: 10px;
@@ -1264,6 +1318,57 @@ input::-webkit-inner-spin-button {
   width: 399px;
   height: 80px;
   margin-top: 32px;
+  color: black;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.op-1 input::placeholder {
+  color: #80918E;
+}
+
+.op-1 input:focus {
+  outline: none;
+}
+
+.op-2 {
+  position: relative;
+}
+
+.op-2 i {
+  position: absolute;
+  bottom: 38px;
+  left: 350px;
+  width: 26px;
+  height: 15px;
+  color: #4A4C53;
+  font-size: 24px;
+}
+
+.op-2 select {
+  background-color: rgba(57, 57, 57, 0.8);
+  color: #000;
+  opacity: 0.1;
+  border-radius: 10px;
+  border-color: unset;
+  width: 399px;
+  height: 80px;
+  margin-top: 32px;
+}
+
+.pay-1 button {
+  background: #FFCD61;
+  box-shadow: 0px 0px 20px rgba(251, 143, 29, 0.4);
+  border-radius: 10px;
+  text-align: center;
+  width: 1160px;
+  height: 89px;
+  margin-top: 90px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 25px;
+  border: unset;
+  color: #393939;
 }
 
 /* style.css payment.html */
