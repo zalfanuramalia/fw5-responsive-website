@@ -350,9 +350,6 @@ button {
 .button-outline {
   background-color: transparent;
   border: 1px solid #FFCD61;
-  /* border-width: 1px;
-  border-color: #FFCD61;
-  border-style: solid; */
 }
 
 .button-filled {
@@ -755,11 +752,11 @@ nav.navbar {
   height: 168px;
 }
 
-nav.container {
+nav .container {
   padding-top: 81px;
 }
 
-nav.container .link {
+nav .container .link {
   padding-left: 0;
   margin-bottom: 0;
   list-style-type: none;
@@ -768,18 +765,46 @@ nav.container .link {
   height: 100%;
 }
 
-nav.container .link li {
+nav .container .link li {
   display: inline-block;
   margin: 0 17.5px;
 }
 
-nav.container .link li a {
+nav .container .link li a {
   color: #B8BECD;
   text-decoration: none;
 }
 
-nav.container .link li a.active {
+nav .container .link li a.active {
   color: #000;
+}
+
+nav .container .mail span i {
+  position: absolute;
+  top: 0;
+  left: 28px;
+  width: 20px;
+  height: 20px;
+  min-height: unset;
+  min-width: unset;
+  border: unset;
+  font-size: 48px;
+  background: #FFCD61;
+  border-radius: 25px;
+}
+
+nav .container .mail span i.fa-1 {
+  position: absolute;
+  top: 6px;
+  left: 35px;
+  width: 5px;
+  height: 5px;
+  min-height: unset;
+  min-width: unset;
+  border: unset;
+  font-size: 10px;
+  color: #393939;
+  font-weight: bold;
 }
 
 form .container .profile h5 {
